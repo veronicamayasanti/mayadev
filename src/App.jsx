@@ -1,5 +1,7 @@
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
+import Projects from "./components/Projects";
+import Techcnologies from "./components/Techcnologies";
 function App() {
   return (
     <div className="overflow-x-hidden text-sky-100 antialiased ">
@@ -13,6 +15,8 @@ function App() {
       <div className="container mx-auto px-5 ">
         <NavBar />
         <Hero />
+        <Techcnologies />
+        <Projects />
       </div>
     </div>
   );

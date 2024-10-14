@@ -33,10 +33,7 @@ function Contact() {
       viewport={{ once: true }}
       className="border-t border-sky-500 pb-20"
     >
-      <motion.h2
-        variants={itemVariants}
-        className="my-10 text-center text-4xl"
-      >
+      <motion.h2 variants={itemVariants} className="my-10 text-center text-4xl">
         Get in Touch
       </motion.h2>
       <motion.div
@@ -46,11 +43,12 @@ function Contact() {
         <motion.p variants={itemVariants} className="my-4">
           {CONTACT.phoneNo}
         </motion.p>
-        <motion.a
-          variants={itemVariants}
-          href="#"
-          className="border-b"
-        >
+
+        <motion.p variants={itemVariants} className="my-4">
+          {CONTACT.address}
+        </motion.p>
+
+        <motion.a variants={itemVariants} href="#" className="border-b">
           {CONTACT.email}
         </motion.a>
       </motion.div>

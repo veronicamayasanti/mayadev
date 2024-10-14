@@ -61,14 +61,16 @@ function Hero() {
             >
               Hi, I'm Mayadev
             </motion.h2>
-            <motion.span 
-            variants={childVariants}
-            className="bg-gradient-to-r from-sky-300 to-sky-500 bg-clip-text text-3xl tracking-tight text-transparent">
-              Front end developer
+            <motion.span
+              variants={childVariants}
+              className="bg-gradient-to-r from-sky-300 to-sky-500 bg-clip-text text-3xl tracking-tight text-transparent"
+            >
+              Full-Stack Developer
             </motion.span>
-            <motion.p 
-            variants={childVariants}
-            className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
+            <motion.p
+              variants={childVariants}
+              className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter"
+            >
               {HERO_CONTENT}
             </motion.p>
             <motion.a
